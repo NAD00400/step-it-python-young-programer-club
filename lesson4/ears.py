@@ -1,5 +1,3 @@
-
-
 import speech_recognition
 
 ears = speech_recognition.Recognizer()
