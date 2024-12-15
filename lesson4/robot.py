@@ -15,8 +15,7 @@ def listen():
         except sr.RequestError as e:
             print(f"Robot: Error: {e}")
     return None
-
-
+    
 def respond(text):
     if "hello" in text.lower():
         return "Hello! How can I help you today?"

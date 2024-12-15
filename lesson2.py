@@ -3,13 +3,11 @@ t = turtle.Turtle()
 
 
 def turtleMove():
-
     print("các lệnh khả dụng ")
     print("fd: ")
     print("bk: ")
     print("rt: ")
     print("lt: ")
-
     while True:
         command = input(">>>").lower()
         if command == "exit":
@@ -36,6 +34,5 @@ def turtleMove():
                 print("lệnh không hợp lệ")
         except ValueError:
             print ('giá trị khôn hợp lệ vui lòng nhập số nguyên ')
-
 turtleMove()
 turtle.done()
